@@ -1,0 +1,142 @@
+[
+  {
+    "id": "001",
+    "request": "Investigate unusual trading activity in EUR/USD and determine whether the alert needs escalation.",
+    "expected_agent": "trade_surveillance",
+    "human_review": false,
+    "high_risk": true
+  },
+  {
+    "id": "002",
+    "request": "Explain the firm's policy for retaining customer communications for seven years.",
+    "expected_agent": "compliance",
+    "human_review": false,
+    "high_risk": false
+  },
+  {
+    "id": "003",
+    "request": "Analyze our current market exposure to interest-rate movements and identify limit breaches.",
+    "expected_agent": "market_risk",
+    "human_review": false,
+    "high_risk": true
+  },
+  {
+    "id": "004",
+    "request": "This alert involves a potentially serious conduct issue and I need someone to investigate the facts.",
+    "expected_agent": "human",
+    "human_review": true,
+    "high_risk": true
+  },
+  {
+    "id": "005",
+    "request": "A trade surveillance alert shows an unusual sequence of orders around a market announcement.",
+    "expected_agent": "trade_surveillance",
+    "human_review": false,
+    "high_risk": true
+  },
+  {
+    "id": "006",
+    "request": "What does our internal compliance standard require for documenting a regulatory decision?",
+    "expected_agent": "compliance",
+    "human_review": false,
+    "high_risk": false
+  },
+  {
+    "id": "007",
+    "request": "Review today's portfolio positions and identify whether any market-risk limits have been exceeded.",
+    "expected_agent": "market_risk",
+    "human_review": false,
+    "high_risk": true
+  },
+  {
+    "id": "008",
+    "request": "There is contradictory evidence in a serious investigation and a final decision is needed.",
+    "expected_agent": "human",
+    "human_review": true,
+    "high_risk": true
+  },
+  {
+    "id": "009",
+    "request": "Determine whether these FX transactions show a pattern that warrants surveillance investigation.",
+    "expected_agent": "trade_surveillance",
+    "human_review": false,
+    "high_risk": true
+  },
+  {
+    "id": "010",
+    "request": "Find the applicable policy requirement for access reviews and summarize what evidence must be retained.",
+    "expected_agent": "compliance",
+    "human_review": false,
+    "high_risk": false
+  },
+  {
+    "id": "011",
+    "request": "Calculate whether the desk's current derivative positions breach approved market-risk thresholds.",
+    "expected_agent": "market_risk",
+    "human_review": false,
+    "high_risk": true
+  },
+  {
+    "id": "012",
+    "request": "I need a human investigator to assess a potentially significant conduct matter.",
+    "expected_agent": "human",
+    "human_review": true,
+    "high_risk": true
+  },
+  {
+    "id": "013",
+    "request": "Investigate whether a trader's order timing relative to a client transaction is unusual.",
+    "expected_agent": "trade_surveillance",
+    "human_review": false,
+    "high_risk": true
+  },
+  {
+    "id": "014",
+    "request": "Which regulatory policy applies to retention of audit evidence and what are the minimum requirements?",
+    "expected_agent": "compliance",
+    "human_review": false,
+    "high_risk": false
+  },
+  {
+    "id": "015",
+    "request": "Assess current stress exposure and whether the trading book is outside its risk appetite.",
+    "expected_agent": "market_risk",
+    "human_review": false,
+    "high_risk": true
+  },
+  {
+    "id": "016",
+    "request": "The available evidence is incomplete and the matter could have significant regulatory consequences.",
+    "expected_agent": "human",
+    "human_review": true,
+    "high_risk": true
+  },
+  {
+    "id": "017",
+    "request": "Look for suspicious order and cancellation patterns across the recent trading activity.",
+    "expected_agent": "trade_surveillance",
+    "human_review": false,
+    "high_risk": true
+  },
+  {
+    "id": "018",
+    "request": "Explain the governance requirement for approving a new AI use case in a regulated function.",
+    "expected_agent": "compliance",
+    "human_review": false,
+    "high_risk": false
+  },
+  {
+    "id": "019",
+    "request": "Check whether the portfolio's current sensitivities breach the desk's approved market-risk limits.",
+    "expected_agent": "market_risk",
+    "human_review": false,
+    "high_risk": true
+  },
+  {
+    "id": "020",
+    "request": "A high-severity case has conflicting facts and should not be closed automatically.",
+    "expected_agent": "human",
+    "human_review": true,
+    "high_risk": true
+  }
+]
